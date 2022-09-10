@@ -19,14 +19,16 @@ int main() {
    P=1;
    printf("give me the number of col:");
    scanf("%d",&C);
-   for(i=1;i<=C;i++){
+   for(i=1;i<=C*2-1;i++){
     for(j=1;j<=P;j++){
         printf("* ");
     }
     if(i<C){
         P++;
-    }else
+    }else{
+
         P--;
+    }
 
     printf("\n");
    }
