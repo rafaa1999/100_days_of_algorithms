@@ -1,4 +1,17 @@
+/**
 
+write a pragramme that takes L cote sqare
+the makes square like this:
+
+
+    * * * * *
+    * *   * *
+    *   *   *
+    * *   * *
+    * * * * *
+
+
+**/
 
 #include<stdio.h>
 
