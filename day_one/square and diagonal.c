@@ -1,6 +1,6 @@
 /**
 
-write a pragramme that takes L cote sqare
+write a pragramme that takes L cote square
 the makes square like this:
 
 

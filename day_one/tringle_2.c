@@ -37,11 +37,13 @@ int main() {
    scanf("%d",&L);
 
    for(i=1;i<=L;i++){
-
+    //this loop is for delete the
+    //portion that we don't need it
     for(j=1;j<=L-i;j++){
         printf("  ");
     }
-
+    // we have three conditions
+    // to draw the triangle
     for(j=1;j<=(2*i-1);j++){
             if(i==L || j==1 || j==(2*i-1)){
                 printf("* ");
@@ -49,7 +51,7 @@ int main() {
                 printf("  ");
             }
     }
-
+    // move to next line
     printf("\n");
    }
    return 0;
